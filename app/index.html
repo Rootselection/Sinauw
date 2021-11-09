@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Sinauw</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-top">
+      <a class="header-top__logo" href="#"><img src="images/logo.png" alt="logo" class="logo"></a>
+      <nav class="nav">
+        <a class="nav__item nav__item--active" href="#">Home</a>
+        <a class="nav__item" href="#">Courses</a>
+        <a class="nav__item" href="#">Webinar</a>
+        <a class="nav__item" href="#">Pricing</a>
+      </nav>
+      <div class="header-top__right-bar">
+        <button class="menu-btn">
+          <svg version="1.1" x="0px" y="0px" viewBox="0 0 297.001 297.001"
+            style="enable-background:new 0 0 297.001 297.001;" xml:space="preserve">
+            <g>
+              <g>
+                <g>
+                  <path d="M107.883,0h-85.27C10.144,0,0.001,10.143,0.001,22.612v85.27c0,12.469,10.143,22.612,22.612,22.612h85.27
+          c12.469,0,22.612-10.143,22.612-22.612v-85.27C130.493,10.143,120.352,0,107.883,0z" />
+                  <path d="M274.388,0h-85.27c-12.469,0-22.612,10.143-22.612,22.612v85.27c0,12.469,10.143,22.612,22.612,22.612h85.27
+          c12.469,0,22.612-10.143,22.612-22.612v-85.27C297,10.143,286.857,0,274.388,0z" />
+                  <path d="M107.883,166.507h-85.27c-12.469,0-22.612,10.142-22.612,22.611v85.27C0.001,286.857,10.144,297,22.613,297h85.27
+          c12.469,0,22.612-10.143,22.612-22.612v-85.27C130.493,176.649,120.352,166.507,107.883,166.507z" />
+                  <path d="M274.388,166.507h-85.27c-12.469,0-22.612,10.143-22.612,22.612v85.27c0,12.469,10.143,22.612,22.612,22.612h85.27
+          C286.857,297,297,286.857,297,274.388v-85.27C297,176.649,286.857,166.507,274.388,166.507z" />
+                </g>
+              </g>
+            </g>
+          </svg>
+  
+        </button>
+  
+        <select class="header-top__right-bar-select js-example-basic-single" name="state">
+          <option value="Eng" selected>Eng</option>
+          <option value="Ru">Ru</option>
+          <option value="Esp">Esp</option>
+        </select>
+        <a class="header-top__right-bar-link" href="#">Login</a>
+      </div>
+    </div>
+    <div class="header-main">
+      <div class="header-main__left">
+        <img class="header-main__left-img" src="images/header-bg.png" alt="">
+        <div class="header-main__users-inner">
+          <div class="header-main__users">
+            <a class="header-main__users-item" href="#">
+              <img src="images/avatars/1.jpg" alt="">
+            </a>
+            <a class="header-main__users-item" href="#">
+              <img src="images/avatars/2.jpg" alt="">
+            </a>
+            <a class="header-main__users-item" href="#">
+              <img src="images/avatars/3.jpg" alt="">
+            </a>
+            <a class="header-main__users-item" href="#">
+              <img src="images/avatars/4.jpg" alt="">
+            </a>
+            <a class="header-main__users-item header-main__users-item--last" href="#">
+              <img src="images/icons/plus.svg" alt="">
+            </a>
+            <p class="header-main__users-text">More than 80k+
+              Students <span>joined!</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="header-main__right">
+        <h1 class="header__title">
+          Grow Your Skills To Advance Your Career Path.
+        </h1>
+        <p class="header__subtitle">
+          We have something big for you who want to level up!
+        </p>
+        <form action="#" class="header__form">
+          <input class="header__form-input" type="text" required placeholder="What do you want to learn...">
+          <button class="header__form-btn" type="submit"><img src="images/icons/search.svg" alt=""></button>
+        </form>
+        <div class="header__tags">
+          <p class="header__tags-title">Suggestions</p>
+          <div class="header__tags-inner">
+            <a class="header__tags-item" href="#">UI UX Design</a>
+            <a class="header__tags-item" href="#">CSS Fundamental</a>
+            <a class="header__tags-item" href="#">3D Design Illustration</a>
+            <a class="header__tags-item" href="#">Website Development</a>
+            <a class="header__tags-item" href="#">Logo Design</a>
+            <a class="header__tags-item" href="#">Icon Design</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- <div class="pluses">
+    <div class="pluses__item">
+      <img src="images/icons/pluses-1.svg" alt="" class="pluses__item-img">
+      <h3 class="pluses__item-title">
+        Get New Friends
+      </h3>
+      <p class="pluses__item-text">
+        You will meet new friends in some of classes that you take. Say hello to them and make friends, it will be so
+        much warm friendship!
+      </p>
+    </div>
+    <div class="pluses__item">
+      <img src="images/icons/pluses-2.svg" alt="" class="pluses__item-img">
+      <h3 class="pluses__item-title">
+        Expert and Fun Mentor
+      </h3>
+      <p class="pluses__item-text">
+        Learn with earnest and don’t forget to get relax too. Learn and enjoy the materials or classes with our expert
+        mentors.
+      </p>
+    </div>
+
+    <div class="pluses__item">
+      <img src="images/icons/pluses-3.svg" alt="" class="pluses__item-img">
+      <h3 class="pluses__item-title">
+        Flexible Access
+      </h3>
+      <p class="pluses__item-text">
+        You can access materials or classes easily by our website also mobile. Access it everywhere and everytime, no
+        limit for you to learn!
+      </p>
+    </div>
+  </div> -->
+  <!-- <section class="classes">
+    <h2 class="classes__title">
+      What Do You Want to Learn?
+    </h2>
+    <p class="classes__subtitle">
+      Choose the right class as you need. Then enjoy studying.А
+    </p>
+    <div class="classes__inner">
+      <div class="classes__item">
+        <div class="classes__item-preview">
+          <img src="images/classes/1.jpg" alt="" class="classes__item-preview-img">
+          <a class="classes__item-preview-link" href="#">7 Videos</a>
+        </div>
+        <a class="classes__item-tag" href="#">Design</a>
+        <div class="classes__item-content">
+          <a href="#">
+            <h3 class="classes__item-content-title">
+              Figma Fundamental
+            </h3>
+          </a>
+          <p class="classes__item-content-text">
+            These lessons and exercises will help you start designing with Figma ...
+          </p>
+        </div>
+        <a href="#" class="classes__item-ref">
+          <img src="images/avatars/5.jpg" alt="" class="classes__item-ref-img">
+          <h4 class="classes__item-ref-author">
+            Araya Sheila
+            <span class="classes__item-ref-speciality">Mentor</span>
+          </h4>
+        </a>
+        <a class="classes__item-link" href="#">Access Class</a>
+      </div>
+      <div class="classes__item">
+        <div class="classes__item-preview">
+          <img src="images/classes/2.jpg" alt="" class="classes__item-preview-img">
+          <a class="classes__item-preview-link" href="#">10 Videos</a>
+        </div>
+        <a class="classes__item-tag" href="#">Coding</a>
+        <div class="classes__item-content">
+          <a href="#">
+            <h3 class="classes__item-content-title">
+              HTML Fundamental
+            </h3>
+          </a>
+          <p class="classes__item-content-text">
+            Well organized and easy to make you understand tutorials with lots of ...
+          </p>
+        </div>
+        <a href="#" class="classes__item-ref">
+          <img src="images/avatars/6.jpg" alt="" class="classes__item-ref-img">
+          <h4 class="classes__item-ref-author">
+            Ellisa Ruth
+            <span class="classes__item-ref-speciality">Mentor</span>
+          </h4>
+        </a>
+        <a class="classes__item-link" href="#">Access Class</a>
+      </div>
+      <div class="classes__item">
+        <div class="classes__item-preview">
+          <img src="images/classes/3.jpg" alt="" class="classes__item-preview-img">
+          <a class="classes__item-preview-link" href="#">16 Videos</a>
+        </div>
+        <a class="classes__item-tag" href="#">Coding</a>
+        <div class="classes__item-content">
+          <a href="#">
+            <h3 class="classes__item-content-title">
+              Android App Development
+            </h3>
+          </a>
+          <p class="classes__item-content-text">
+            Take your Android coding skills to the next level, advanced Android app ...
+          </p>
+        </div>
+        <a href="#" class="classes__item-ref">
+          <img src="images/avatars/7.jpg" alt="" class="classes__item-ref-img">
+          <h4 class="classes__item-ref-author">
+            Wendy Troye
+            <span class="classes__item-ref-speciality">Mentor</span>
+          </h4>
+        </a>
+        <a class="classes__item-link" href="#">Access Class</a>
+      </div>
+      <div class="classes__item">
+        <div class="classes__item-preview">
+          <img src="images/classes/4.jpg" alt="" class="classes__item-preview-img">
+          <a class="classes__item-preview-link" href="#">12 Videos</a>
+        </div>
+        <a class="classes__item-tag" href="#">Technology</a>
+        <div class="classes__item-content">
+          <a href="#">
+            <h3 class="classes__item-content-title">
+              Digital Marketing Strategy
+            </h3>
+          </a>
+          <p class="classes__item-content-text">
+            This course aims to give you deeper understanding of core processes Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+        <a href="#" class="classes__item-ref">
+          <img src="images/avatars/8.jpg" alt="" class="classes__item-ref-img">
+          <h4 class="classes__item-ref-author">
+            Joey Piere
+            <span class="classes__item-ref-speciality">Mentor</span>
+          </h4>
+        </a>
+        <a class="classes__item-link" href="#">Access Class</a>
+      </div>
+    </div>
+    <a class="classes__link" href="#">Show All Classes</a>
+  </section>
+  <section class="video">
+    <h2 class="video__title">
+      Live Online Webinar
+    </h2>
+    <p class="video__subtitle">
+      You can stream Webinar live on our apps. Stay update on our Webinar, it’s Free!
+    </p>
+    <div class="video__inner">
+      <img class="video__item" src="images/decor/video-bg.jpg" alt="">
+      <img class="video__item" src="images/decor/video-bg.jpg" alt="">
+      <img class="video__item" src="images/decor/video-bg.jpg" alt="">
+      <img class="video__item" src="images/decor/video-bg.jpg" alt="">
+      <img class="video__item" src="images/decor/video-bg.jpg" alt="">
+    </div>
+    <a class="video__link" href="#">See more webinar videos</a>
+  </section>
+  <section class="price">
+    <h2 class="price__title">
+      Course Pricing
+    </h2>
+    <p class="price__subtitle">
+      Choose pricing that suits to your need.
+    </p>
+    <div class="price__inner">
+      <div class="price__item">
+        <div class="price__item-top">
+          <img class="price__item-icon" src="images/icons/price-1.svg" alt="">
+          <div class="price__item-top-content">
+            <h3 class="price__item-title">
+              Free
+            </h3>
+            <h4 class="price__item-price">
+              <sup>$</sup>
+              0
+              <span>/ month</span>
+            </h4>
+          </div>
+        </div>
+        <ul class="price__item-list">
+          <li class="price__item-list-item">Free e-book for every class</li>
+          <li class="price__item-list-item">Materials update every day</li>
+          <li class="price__item-list-item">Free download material videos</li>
+          <li class="price__item-list-item">Unlock 5 material videos</li>
+        </ul>
+        <span class="price__item-btn price__item-btn--active">Your Current Package</span>
+      </div>
+      <div class="price__item">
+        <div class="price__item-top">
+          <img class="price__item-icon" src="images/icons/price-2.svg" alt="">
+          <div class="price__item-top-content">
+            <h3 class="price__item-title">
+              Free
+            </h3>
+            <h4 class="price__item-price">
+              <sup>$</sup>
+              0
+              <span>/ month</span>
+            </h4>
+          </div>
+        </div>
+        <ul class="price__item-list">
+          <li class="price__item-list-item">Free e-book for every class</li>
+          <li class="price__item-list-item">Materials update every day</li>
+          <li class="price__item-list-item">Free download material videos</li>
+          <li class="price__item-list-item">Unlock 5 material videos</li>
+          <li class="price__item-list-item">Unlock 5 material videos</li>
+        </ul>
+        <a class="price__item-btn" href="#">Your Current Package</a>
+      </div>
+      <div class="price__item price__item--popular">
+        <div class="price__item-top">
+          <img class="price__item-icon" src="images/icons/price-3.svg" alt="">
+          <div class="price__item-top-content">
+            <h3 class="price__item-title">
+              Free
+            </h3>
+            <h4 class="price__item-price">
+              <sup>$</sup>
+              0
+              <span>/ month</span>
+            </h4>
+          </div>
+        </div>
+        <ul class="price__item-list">
+          <li class="price__item-list-item">Free e-book for every class</li>
+          <li class="price__item-list-item">Materials update every day</li>
+          <li class="price__item-list-item">Free download material videos</li>
+          <li class="price__item-list-item">Unlock 5 material videos</li>
+          <li class="price__item-list-item">Unlock 5 material videos</li>
+          <li class="price__item-list-item">Unlock 5 material videos</li>
+          <li class="price__item-list-item">Unlock 5 material videos</li>
+        </ul>
+        <a class="price__item-btn price__item-btn--popular" href="#">Buy Premium</a>
+      </div>
+    </div>
+  </section>
+  <section class="mobile">
+    <div class="mobile__inner">
+      <div class="mobile__content">
+        <h2 class="mobile__content-title">
+          Get Our Apps, Now!
+        </h2>
+        <p class="mobile__content-text">
+          Reach out our apps everywhere and everytime with Sinauw Mobile Application.
+        </p>
+        <div class="mobile__content-icons">
+          <a class="mobile__content-icon" href="#"><img src="images/googleplay.png" alt=""></a>
+          <a class="mobile__content-icon" href="#"><img src="images/appstore.png" alt=""></a>
+        </div>
+      </div>
+      <div class="mobile__box">
+        <img class="mobile__box-img mobile__box-img--main" src="images/decor/mobile/1.png" alt="">
+        <img class="mobile__box-img" src="images/decor/mobile/2.png" alt="">
+        <img class="mobile__box-img" src="images/decor/mobile/3.png" alt="">
+        <img class="mobile__box-img" src="images/decor/mobile/4.png" alt="">
+        <img class="mobile__box-img" src="images/decor/mobile/5.png" alt="">
+        <img class="mobile__box-img" src="images/decor/mobile/6.png" alt="">
+        
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="footer__box">
+        <a href="#"><img src="images/logo.png" alt="" class="logo footer__logo"></a>
+        <p class="footer__box-text">
+          Any feedback or questions?
+          Contact us on our social media
+        </p>
+        <div class="footer__box-social">
+          <a class="footer__box-social-icon" href="#"><img src="images/icons/facebook.svg" alt=""></a>
+          <a class="footer__box-social-icon" href="#"><img src="images/icons/twitter.svg" alt=""></a>
+          <a class="footer__box-social-icon" href="#"><img src="images/icons/instagram.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="footer__inner">
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Menu</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Home</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Courses</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Webinar</a>
+          </li>
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Services</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Home</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Courses</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Webinar</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Webinar</a>
+          </li>
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Further Information</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Home</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Courses</a>
+          </li>
+          
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Apps Download</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Home</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Webinar</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer__copy">Copyright 2021 Sinauw. © All Rights Reserved.</p>
+  </footer> -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
